@@ -28,7 +28,7 @@ find_package(PkgConfig REQUIRED)
 
 find_program(XDG_MIME_EXECUTABLE xdg-mime) # optional, for MIME type installation
 
-pkg_check_modules(VTFLIB REQUIRED VTFLib)
+pkg_check_modules(VTFLIB REQUIRED VTFLib13)
 
 # ---- compiler flags ---------------------------------------------------------
 if(MSVC)
