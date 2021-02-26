@@ -20,7 +20,7 @@
 #define QVTF_LOAD_VALVE_TEXTURE_FILE_H
 
 #include <QImageIOPlugin>
-#include <VTFFile.h>
+#include <VTFLib13/VTFFile.h>
 
 class ValveTextureFilePlugin : public QImageIOPlugin {
     Q_OBJECT

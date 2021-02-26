@@ -18,7 +18,7 @@
 
 #include "ValveTextureFile.h"
 
-#include <VTFLib.h>
+#include <VTFLib13/VTFLib.h>
 #include <QImage>
 #include <QVariant>
 
